@@ -1,0 +1,10 @@
+<div>
+    <h3>Left Pane</h3>
+    <div class="form-group">
+        <label>Pane Value: </label>
+        <input type="text" class="form-control" [(ngModel)]="paneValue">
+    </div>
+    <button type="submit" (click)="onClick()" class="btn btn-primary">Submit</button>
+    <hr>
+    <h4>Right Pane Value is: {{ rightPaneValue }}</h4>
+</div>
